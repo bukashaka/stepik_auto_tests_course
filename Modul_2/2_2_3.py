@@ -22,7 +22,7 @@ email_field.send_keys("y")
 
 # создаём путь до файла test_file.txt в текущей папке
 current_dir = os.path.abspath(os.path.dirname(__file__))  # путь к текущей папке
-file_path = os.path.join(current_dir, "test_file.txt")
+file_path = os.path.join(current_dir, "../lesson3/test_file.txt")
 
 # если файла ещё нет — создаём временно
 if not os.path.exists(file_path):
